@@ -4,6 +4,7 @@
     "require": {
         "php": "^7.1.3"
     },
+    "minimum-stability": "master",
     "autoload": {
         "files": [
             "parser.php"
