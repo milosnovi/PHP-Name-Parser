@@ -2,12 +2,11 @@
     "name": "joshfraser/php-name-parser",
     "description": "PHP library to split names into their respective components (first, last, etc)",
     "require": {
-        "php": "^7.1.3"
+        "php": "^7.0"
     },
-    "minimum-stability": "master",
-    "autoload": {
-        "files": [
-            "parser.php"
-        ]
+    "autoload-dev": {
+        "psr-4": {
+            "FullNameParser\\": "src"
+        }
     }
 }

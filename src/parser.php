@@ -1,6 +1,6 @@
 <?php
 
-
+namespace FullNameParser;
 
 /**
  * Split a full name into its constituent parts
@@ -21,7 +21,7 @@
  * //   - `TomThak` for raising issue #16 and providing [wikepedia resource](https://cs.wikipedia.org/wiki/Akademick%C3%BD_titul)
  * //   - `atla5` for closing the issue.
 */
-class FullNameParser {
+class Parser {
 
 
 
